@@ -1,29 +1,68 @@
 *{
-    background-color: #0a0a0a;
+    font-family: 'Roboto', sans-serif;
 }
 
-.menu{
-    width: 100vh;
+.inicio{
+    height: 100vh;    
+    background: linear-gradient( rgba(22, 22, 22, 0.8), rgba(22, 22, 22, 0.8)), url("/assets/img/banner.jpg");
+    background-size: cover;
+
+}
+.container{
+    align-items: center;
+    justify-content: center;
+}
+
+.navegacion{
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: rgba(22, 22, 22, 0.8);
 }
 
 .menu_logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu_logo .logo{
     width: 80px;
     height: 80px;
-    padding-left: 0.5rem;
-    margin: 0.2rem;
+    margin-top: 0.7rem; 
+    margin-left: 0.7rem;
+    
 }
 
-.menu_titulo{
+.logo .titulo a{
+    margin-top: 0.7rem;
+    margin-left: 0.7rem;
     font-size: 1.5rem;
     font-weight: bold;
-
+    text-decoration: none;
+    color: #7e4b50;
 }
 
-.menu_ul{
-    width: 30vh;
+.menu{
+    width: 30%;
+    padding-right: 2rem;
+}
+
+.menu_lista{
+    
     display: flex;
     justify-content: space-between;
+    list-style: none;
 }
 
+.menu_link{
+    color: #27707e;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.presentacion{
+    
+}
