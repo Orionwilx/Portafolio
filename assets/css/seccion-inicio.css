@@ -21,20 +21,6 @@
     background-color: rgba(22, 22, 22, 0.8);
 }
 
-.menu_logo{
-    display: flex;
-    align-items: center;
-    
-}
-
-.menu_logo .logo{
-    width: 80px;
-    height: 80px;
-    margin-top: 0.7rem; 
-    margin-left: 0.7rem;
-    
-}
-
 .logo .titulo a{
     margin-top: 0.7rem;
     margin-left: 0.7rem;
@@ -42,6 +28,10 @@
     font-weight: bold;
     text-decoration: none;
     color: #7e4b50;
+}
+
+.logo .titulo a:hover{
+    color: #aa656c;
 }
 
 .menu{
@@ -63,10 +53,40 @@
     text-decoration: none;
 }
 
+.menu_link:hover {
+    color: #3ec9e5;
+}
+
 .presentacion{
     height: 100vh;    
     text-align: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
+}
+
+.presentacion .bienvenida{
+    font-size: 5.3rem;
+    font-weight: bold;
+    color: #f3f3f3a2 ;
+    text-shadow: 2px 2px 3px #030303;
+
+}
+
+.presentacion h2{
+    font-size: 2.1rem;
+    /* color: #52bb1a9e; */
+    color: #f3f3f3a2 ;
+    text-shadow: 2px 2px 3px #030303 ;
+}
+
+.presentacion h2 spam{
+    font-size: 2.3rem;
+}
+
+.presentacion .spam{
+    font-size: 2.1rem;
+    /* color: #52bb1a9e; */
+    color: #f3f3f3a2;
+    text-shadow: 2px 2px 3px #030303;
 }
